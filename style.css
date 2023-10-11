@@ -1,0 +1,52 @@
+body {
+    background-color: #0a0a0a;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    color: white;
+}
+
+.advert-banner {
+    background-color: #202020;
+    width: 15%;
+}
+
+.main-site {
+    flex: 1;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.game {
+    display: grid;
+    gap: 20px;
+
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+}
+
+.field {
+    width: 50px;
+    height: 50px;
+
+    background-color: #202020;
+
+    border: none;
+    border-radius: 10px;
+
+    text-align: center;
+    font-size: 35px;
+}
