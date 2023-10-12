@@ -42,15 +42,6 @@ header {
     align-items: center;
 }
 
-.game {
-    display: grid;
-    gap: 20px;
-    padding-top: 2%;
-
-    grid-template-columns: 50px 50px 50px 50px 50px;
-    grid-template-rows: 50px 50px 50px 50px 50px;
-}
-
 .game-title {
     color: white;
     font-size: 50px;
@@ -78,7 +69,7 @@ header {
     width: 550px;
     margin-top: 10px;
     border: 0;
-    padding: 7px;
+    padding: 15px;
     letter-spacing: 1px;
     color: white;
     background-color: black;
@@ -92,4 +83,13 @@ header {
 .game-button > img {
     height: 100px;
     width: 100px;
+    margin-right: 15px;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
 }
