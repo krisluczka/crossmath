@@ -110,7 +110,7 @@ function check() {
 }
 
 function loadMathWordle( isRandom = false ) {
-    let game = document.querySelector(".game");
+    let game = document.querySelector(".pw-game");
     let info = document.querySelector(".game-info");
 
     if ( isRandom ) {
